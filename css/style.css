@@ -1,0 +1,133 @@
+header[role="banner"] #logo-main {
+  display: flex;
+  margin: 20px auto;
+  justify-content : flex-end;
+}
+
+.navbar {
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-nav {
+	margin:20px auto;
+}
+
+.navbar-toggler {
+	/*margin:20px auto;*/
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.sectionImgAtas {
+	background-color: transparent;
+	padding: 2rem;
+}
+
+.ImgAtasLeft {
+	width : 600px;
+	height : auto;
+	box-shadow: 42px 42px #f5f0ea;
+}
+
+.ImgAtasCenter {
+	width : 600px;
+	height : auto;
+}
+
+.ImgAtasRight {
+	width : 600px;
+	height : auto;
+	box-shadow: -42px -42px #f5f0ea;
+}
+
+.sectionAbout {
+	background-color: transparent;
+	padding: 2rem;
+	justify-content: space-between;
+	margin-bottom: 1rem!important;
+}
+
+.CaptionAbout {
+	text-align:center;
+	font-family: 'Lora', serif;
+}
+
+.img-About {
+	width : 600px;
+	height : auto;
+	box-shadow: -65px 92px #f5f0ea;
+}
+
+.OurProduct {
+	background-color: transparent;
+	padding: 2rem;
+	text-align: center;
+}
+
+/*.card {
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}*/
+
+.card {
+	border: none;
+}
+
+.card-text {
+	/*font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 2;*/
+}
+
+
+.bg-primary {
+    background-color: #fff!important;
+}
+
+.ImgPruduct {
+	width : 210px;
+	height : 210px;
+	border-radius: 50%;
+	border: solid;
+	border-color: #ebebe8;
+}
+
+.sectionImgBawah{
+	background-color: transparent;
+	padding:0;
+}
+
+.ImgBawah {
+	width : 210px;
+	height : auto;
+	border-radius: 50%;
+}
+
+.footer {
+	margin : auto;
+	display : block; 
+	font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 2;
+    padding: 25px 0;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #f5eee6;
+}
